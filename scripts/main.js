@@ -14,4 +14,10 @@ $(".tabs_services_wrap .tab_services").click(function() {
 	$(".tab_items").hide().eq($(this).index()).fadeIn();
 }).eq(0).addClass("active");
 
+
+});
+
+
+$('.bxslider').bxSlider({
+  pagerCustom: '#bx-pager'
 });

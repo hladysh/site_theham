@@ -236,7 +236,9 @@ features
 .work_h2,
 .services_h2,
 .news_h2,
-.price_h2 {
+.price_h2,
+.testimonial_h2,
+.team_h2 {
     color: #4e4e4e;
     font-size: 36px;
     margin: 95px 0 70px 0;
@@ -865,8 +867,226 @@ price
     width: 170px;
     height: 50px;
     color: #fff;
+    cursor: pointer;
     background-color: #2e4a5b;
     border-radius: 5px;
     border: 1px solid #fff;
     margin: 23px 0;
+}
+/* ==========================================================================
+testimonial
+========================================================================== */
+.testimonial {
+    background: #2e404d url(../img/testimonial.jpg) no-repeat center center;
+    text-align: center;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+.testimonial_h2 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40px;
+    padding-bottom: 30px;
+}
+
+.testimonial_item p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #bbbbbb;
+    font-weight: 400;
+}
+.testimonial_item h5 {
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 20px;
+    color: #18cfab;
+    font-weight: 400;
+    padding-top: 20px; 
+}
+.testimonial_item span {
+    font-size: 13px;
+    line-height: 35px;
+    color: #bbbbbb;
+    font-weight: 400;
+}
+
+.testimonial_item img {
+    height: 135px;
+    width: 135px;
+    margin: 30px auto;
+    box-shadow: 0 0 0 11pt #2b5f62;
+    border: 4px solid #1ecaa9;
+    border-radius: 50%;
+}
+.icon_quote  {
+    width: 47px;
+    height: 36px;
+    background: url(../img/sprites.png) no-repeat center center;
+    background-position: -146px -83px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.bx-pager {
+    margin: 50px;
+}
+.bx-pager a {
+    text-decoration: none;
+
+}
+.bx_pager_img_wrap {
+    height: 66px;
+    width: 66px;
+    /*border: 3px solid #1ecaa9;*/
+    border-radius: 50%;
+}
+.bx-pager a img {
+    width: 57px;
+    height: 57px;
+    display: inline-block;
+    margin: 0 15px;
+    
+}
+.bx-wrapper .bx-controls-direction a{
+    top: 127%;
+    width: 31px;
+    height: 31px;
+}
+
+.bx-pager a img{
+    width: 66px;
+    height: 66px;
+    position: relative;
+    box-shadow: 0 0 0 5pt #2b5f62;
+    border-radius: 50%;
+    position: relative;
+}
+
+
+.bx-pager a.active img{
+    top: -15px;
+    position: relative;
+    border: 3px solid #1ecaa9;
+}
+
+/* ==========================================================================
+team
+========================================================================== */
+
+.team {
+    text-align: center;
+    margin-bottom: 80px;
+}
+.team_h2 {
+    margin: 0 0 70px 0;
+}
+
+.team article {
+    width: 23.5%;
+    float: left;
+    margin-right: 2%;
+
+}
+
+.team article:nth-child(4n+1) {
+    margin-right: 0;
+}
+.team article:hover .team_img_hover {
+    visibility: visible;
+    opacity: 1;
+}
+.team_img_wrap {
+    position: relative;
+    bottom: -4px;
+}
+.team_img_wrap img {
+    width: 100%;
+}
+.team_img_hover {
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    background: rgba(140,154,163,0.5);
+    color: #fff;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s;
+    cursor: pointer;
+    padding: 65px 0;
+}
+.team_img_circle {
+    border: 2px solid #18cfab;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+}
+.team_img_circle i {
+    height: 33px;
+    width: 32px;
+    display: block;
+    background: url(../img/sprites.png) no-repeat center center;
+    background-position: -271px -31px;
+    margin: 20px auto;
+}
+.team_img_text {
+    text-align: left;
+    background-color: #2e4a5b;
+    color: #fff;
+    padding: 15px 0 15px 15px;
+    border-bottom: 1px solid #fff;
+}
+.team_img_text h4{
+    line-height: 25px;
+    color: #fff;
+}
+.team_img_text p{
+    color: #18cfab;
+    padding: 0;
+}
+.team_social {
+    background-color: #2e4a5b;
+}
+
+.social_icon {
+    width: 25%;
+    float: left;
+    height: 65px;
+    background-color: #2e4a5b;
+    border-right: 1px solid #fff;
+    text-align: center;
+}
+.social_icon:last-child {
+    border-right: none;
+}
+.facebook_icon i,
+.twitter_icon i,
+.skype_icon i,
+.vimeo_icon i {
+    display: block;
+    width: 23px;
+    height: 28px;
+    background: url(../img/sprites.png) no-repeat center center;
+    background-position: 2px -81px;
+    margin: 20px auto;
+}
+.twitter_icon i {
+    background-position: -22px -81px;
+}
+.skype_icon i {
+    background-position: -49px -81px;
+}
+.vimeo_icon i {
+    background-position: -76px -81px;
+}
+.team article:hover .social_icon,
+.team article:hover .team_img_text,
+.team article:hover .team_img_text > p {
+        cursor: pointer;
+        color: #2e4a5b;
+        background-color: #18cfab;
 }
