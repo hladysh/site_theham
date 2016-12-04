@@ -14,7 +14,9 @@ $(".tabs_services_wrap .tab_services").click(function() {
 	$(".tab_items").hide().eq($(this).index()).fadeIn();
 }).eq(0).addClass("active");
 
-
+	$('.overlay').click(function() {
+		$(this).remove();
+	});
 });
 
 
