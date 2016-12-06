@@ -59,23 +59,29 @@
 }
 
 /* DIRECTION CONTROLS (NEXT / PREV) */
-
+.bx-wrapper .bx-next,
 .bx-wrapper .bx-prev {
-    left: 28%;
-    background: url(../img/left2.png) no-repeat;
+	width: 31px;
+    height: 31px;
+    background: url(../img/sprites.png) no-repeat;
+    background-position: -196px -74px;
+}
+.bx-wrapper .bx-next {
+    left: 28%;  
 }
 
-.bx-wrapper .bx-next {
+.bx-wrapper .bx-prev {
     right: 28%;
-    background: url(../img/right2.png) no-repeat;
+        background-position: -231px -74px;
 }
 
 .bx-wrapper .bx-prev:hover {
-    background: url(../img/left2-hover.png) no-repeat;
+    background-position: -231px  -106px;
 }
 
 .bx-wrapper .bx-next:hover {
-    background: url(../img/right2-hover.png) no-repeat;
+	background-position: -196px -106px;
+	
 }
 
 .bx-wrapper .bx-controls-direction a {
