@@ -10,25 +10,25 @@
 </head>
 <body>
 	
-	<header>
+	<header >
 		<div class="container">
 			<div class="grid">
 				<div class="col-6-6">
 					<div class="logo">
 						<img src="img/logo.png" alt="logo">
 					</div>
-					<nav>	
+					<nav class="top-menu">	
 						<ul class="header-nav">
-							<!--<li><a href="#"></a></li>-->
-							<li><a class="active" href="#">home</a></li>
-							<li><a href="#">about</a></li>
-							<li><a href="#">skills</a></li>
-							<li><a href="#">service</a></li>
-							<li><a href="#">work</a></li>
-							<li><a href="#">testimo</a></li>
-							<li><a href="#">blog</a></li>
-							<li><a href="#">team</a></li>
-							<li><a href="#">contact</a></li>
+							<!-- <li><a href="#"></a></li> -->
+							<li><a class="active" href="#home">home</a></li>
+							<li><a href="#about">about</a></li>
+							<li><a href="#skills">skills</a></li>
+							<li><a href="#service">service</a></li>
+							<li><a href="#work">work</a></li>
+							<li><a href="#testimo">testimo</a></li>
+							<li><a href="#blog">blog</a></li>
+							<li><a href="#theme">team</a></li>
+							<li><a href="#contact">contact</a></li>
 						</ul>
 						<div class="searsh">
 							<div class="wrap_form_searsh">
@@ -44,7 +44,7 @@
 		</div>
 	</header>
 	
-	<section class="theme_banner">
+<section class="theme_banner" id="home">
 		<div class="container">
 			<div class="grid">
 				<div class="col-6-6">
@@ -56,8 +56,8 @@
 				</div>
 			</div>
 		</div>
-	</section>
-	<section class="about">
+</section>
+<section class="about" >
 		<article class="innerlight">
 			<img src="img/about_img_1.png" alt="Option">
 			<h3>Different theme option</h3>
@@ -74,9 +74,9 @@
 			<img src="img/about_img_4.png" alt="DEVICE">
 			<h3>RESPONSIVE ALL DEVICE</h3>
 		</article>
-	</section>
+</section>
 </section >
-<section class="features">
+<section class="features" id="about">
 	<div class="container">
 		<div class="grid">
 			<div class="col-6-6">
@@ -102,9 +102,11 @@
 					<i class="icons_features icon_blog"></i>
 					<h4>Creative Blog Style</h4>
 					<p>All our modules are built with the possi bility to thse choose between different design and you change.</p>
+
 					<i class="icons_features icon_interface"></i>
 					<h4>Amazing Interface</h4>
 					<p>All our modules are built with the possi bility to thse choose between different design and you change.</p>
+
 					<i class="icons_features icon_menus"></i>
 					<h4>Mega Menus</h4>
 					<p>All our modules are built with the possi bility to thse choose between different design and you change.</p>
@@ -128,8 +130,7 @@
 		</div>
 	</div>
 </section>
-
-<section class="about_company" >
+<section class="about_company"  id="skills">
 	<div class="about_wrap">
 		<img src="img/about_company_content.png" alt="about company content">
 	</div>
@@ -182,7 +183,7 @@
 		</div>
 	</div>
 </section>
-<section class="work">
+<section class="work" id="service">
 	<div class="container">
 		<div class="grid">
 			<div class="col-6-6">
@@ -338,9 +339,8 @@
 			</div>
 		</div> 
 	</div> 
-
 </section>
-<section class="services">
+<section class="services" id="work">
 			<div class="container">
 				<div class="grid">
 					<div class="col-6-6">
@@ -421,7 +421,6 @@
 					</div>
 				</div>
 			</div>
-</section>
 <aside class="buy_now">
 			<div class="container">
 				<div class="grid">
@@ -438,7 +437,10 @@
 				</div>
 			</div>
 </aside>
-<section class="news">
+</section>
+
+
+<section class="news"  id="testimo">
 			<div class="container">
 				<div class="grid">
 					<div class="col-6-6">
@@ -593,7 +595,7 @@
 				</div>
 			</div>
 </section>
-<section class="achievement">
+<section class="achievement" >
 			<article class="innerlight">
 				<div class="circle">
 					<div class="achievement_icon ">
@@ -631,7 +633,7 @@
 				<span>Office</span>
 			</article>
 </section>
-<section class="price">
+<section class="price" id="blog">
 			<div class="container">
 				<div class="grid">
 					<div class="col-6-6">
@@ -692,10 +694,7 @@
 					</div>
 				</div>
 			</div>
-</section>		
-
-
-<section class="testimonial">
+			<div class="testimonial" >
 			<div class="container">
 				<div class="grid">
 					<div class="col-6-6">
@@ -749,10 +748,10 @@
 					</div>
 				</div>
 			</div>
+</div>
+</section>		
 
-</section>
-
-<section class="team">
+<section class="team" id="theme">
 			<div class="container">
 				<div class="grid">
 					<div class="col-6-6">
@@ -872,8 +871,7 @@
 					</div>
 				</div>
 			</div>
-</section>
-<section class="theme">	
+<div class="theme" >	
 			<div class="container">
 				<div class="grid">
 					<div class="col-6-6">
@@ -918,8 +916,10 @@
 				</ul>
 				<button class="btn purchase_now btn_green  " type="button"> purchase now</button>
 			</div>
+</div>			
 </section>
-<section class="contact">
+
+<section class="contact" id="contact">
 
 			<div class="map">
 				<div class="overlay" onClick="style.pointerEvents='none'"></div>
@@ -935,7 +935,7 @@
 				</form>
 			</div>
 </section>
-<footer>		
+<footer >		
 			<section class="letter_news" id="letter_news">
 				<div class="container">
 					<div class="grid">
@@ -1031,7 +1031,7 @@
 			</section>	
 </footer>
 
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 		<script src="scripts/jquery.bxslider.min.js"></script>
 		<script src="scripts/jquery.quicksand.js"></script>
 		<script src="scripts/main.js"></script>
