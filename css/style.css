@@ -111,10 +111,6 @@ general style
 /* ==========================================================================
 Header
 ========================================================================== */
-body {
-    position: relative;
-    top: 120px;
-}
 
 header {
     position: fixed;
@@ -507,95 +503,6 @@ features
      margin: 90px 0 35px 0;
     text-align: center;
 }
-/*}
-.filters_wrap {
-    width: 750px;
-    position: relative;
-    margin: 0 auto;
-    text-align: center;
-}
-#filters {
-    margin: 6%;
-    padding: 0;
-    list-style: none;
-    text-align: center;
-}
-
-#filters li {
-    float: left;
-    display: inline-block;
-    border: 1px solid #ebebeb;
-    border-right: none;
-}
-#filters li:last-child {
-    border-right: 1px solid #ebebeb;
-}
-
-
-#filters li span {
-    display: inline-block;
-    padding: 15px 25px;
-    text-decoration: none;
-    color: #717171;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 400;
-    border-top: 2px solid rgba(0,0,0,0);
-    border-right: 1px solid #ebebeb;
-}
-
-#filters li span:hover,
-#filters li span.active  {
-    color: #18cfab;
-    border-top: 2px solid #18cfab;
-    transition: all 0.5s;
-}
-
-.portfolio {
-    display: inline-block;
-    width: 25%;
-    float: left;
-}
-.portfolio img {
-    width: 100%;
-    display: block;
-}
-.portfoliohover {
-    position: relative;
-}
-.imagehover {
-    position: absolute;
-    font-size: 22px;
-    width: 100%;
-    margin: 0 auto;
-    background: #fff;
-    color: #fff;
-    border-top: 3px solid #18cfab;
-    bottom: 0;
-    top: 0;
-    right: 0;
-    left: 0;
-    visibility: hidden;
-    opacity: 0;
-    transition: all 0.5s;
-    cursor: pointer;
-    padding: 40px 0;
-}
-.imagehover h3 {
-    font-size: 14px;
-    line-height: 25px;
-    color: #18cfab;
-    text-transform: uppercase;
-    padding: 30px 0 0;
-}
-.imagehover p {
-    font-size: 12px;
-    line-height: 15px;
-    font-weight: normal;
-    color: #8a8a8a;
-}*/
-
 
 .portfolio-categ  {
     margin: 6%;
@@ -654,7 +561,6 @@ features
     right: 0;
     left: 0;
     visibility: hidden;
-    /*display: none;*/
     opacity: 0;
     transition: all 0.5s;
     cursor: pointer;
@@ -719,11 +625,6 @@ features
     background-position: -272px -24px;
 }
 
-/*.portfolio-content, .portfolio-area{width:1080px;}*/
-/*.title-page{font-size:30px;margin:20px 0px 30px 0px;color:#151515;}*/
-/*.goto{float:right;width:130px;margin:-80px 30px 0px 0px;}*/
-/*.portfolio-categ{margin-bottom:30px;}*/
-/*.image-block{ display:block;position: relative;}*/
 
 /* ==========================================================================
 services
